@@ -1,13 +1,15 @@
+'''
+Python Stock Project
+William McFadden 
+2024
+'''
+
 import yfinance as yf
 import datetime 
 from pandas_datareader import data as pdr
 import matplotlib.pyplot as plt
-import requests
-import csv
 
 yf.pdr_override()
-
-# api_key = open('api_key', 'r').read()
 
 tickers = []
 loop = True
